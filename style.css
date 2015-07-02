@@ -1,0 +1,19 @@
+body {
+	color: white;
+	background: url("http://i.imgur.com/sc7gp1K.jpg");
+	background-size: 80%;
+	background-repeat: no-repeat;
+    background-position: center;
+    padding: 140px;
+	text-align: center;
+	font-family: helvetica;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+p {
+	font-size: 25px;
+	color: white
+}
