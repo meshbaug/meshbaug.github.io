@@ -2,19 +2,49 @@ body{
 	font-size: 24px;
 	font-family: Helvetica;
 	background: #FFFDE2;
-}
- a {
-      color: gray;
-    }
-    ul {
-      font-size: 15px;
-      padding: 10px;
-      margin-right: 50px;
-    }
+  }
+
+a {
+  color: #969696;
+  text-decoration: none;
+  font-size: 20px;
+  }
+    
+ul {     
+  padding: 10px;
+  margin-right: 50px;
+  }
+  
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-#slogan {
-	font-style: italic;
+.list{
+    float: right;
+    margin: 210px 0px 0px 100px;
 }
+.splash{
+    position: relative; 
+}
+h1{
+    position: absolute;
+    top: 155px;
+    left: 660px; 
+    width: 100%;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+h3{
+    position: absolute;
+    top: 230px;
+    left: 663px; 
+    width: 100%;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.hero{
+  max-width: 100%;
+}
+
