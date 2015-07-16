@@ -18,17 +18,20 @@ ul {
     li {
       display: inline;
       padding: 0 10px 0 10px;
-    }
+      }
+
 .list{
     float: right;
     margin: 210px 0 0 100px;
-}
+    }
+
 .firstsplashimg{
     position: relative; 
-}
+    }
+
 .sesamehero{
   max-width: 100%;
-}
+  }
 
 #sogood{
     position: absolute;
@@ -38,7 +41,8 @@ ul {
     font-size: 60px;
     color: #FFFFFF;
     text-transform: uppercase;
-}
+    }
+
 #stuckteeth{
     position: absolute;
     top: 230px;
@@ -47,19 +51,20 @@ ul {
     font-size: 35px;
     color: #FFFFFF;
     text-transform: uppercase;
-}
-#picboxes{
-  position: relative;
-    float: right;
-    margin: 0 0 10px 10px;
-}
+    }
+
+.picboxes{
+  width: 150px;
+  height: 150px;
+  }
+
 .one{
     position: relative; 
-}
+    }
 
 .test{
   width: 33%;
-}
+  }
 .words{
     position: absolute;
     width: 100%;
@@ -68,3 +73,4 @@ ul {
     font-size: 20px;
     color: #FFFFFF;
     text-transform: uppercase;
+    }
