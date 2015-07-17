@@ -4,6 +4,10 @@ body{
 	background: #FFFDE2;
   }
 
+#logo{
+  max-width: 7%
+  }
+
 a {
   color: #969696;
   text-decoration: none;
@@ -17,12 +21,12 @@ ul {
   
     li {
       display: inline;
-      padding: 0 10px 0 10px;
+      padding: 0 120px 0 10px;
       }
 
 .list{
     float: right;
-    margin: 210px 0 0 100px;
+    margin: 100px 0 0 100px;
     }
 
 .firstsplashimg{
@@ -53,24 +57,27 @@ ul {
     text-transform: uppercase;
     }
 
-.picboxes{
-  width: 150px;
-  height: 150px;
+
+
+#overallcontainer{
   }
 
-.one{
+.imagetextbutton{
+    float: left;
     position: relative; 
+    width: 33.333%
     }
 
-.test{
-  width: 33%;
-  }
+.picturebutton{
+    width: 100%;
+    }
+
 .words{
     position: absolute;
     width: 100%;
-    top: 115px;
+    top: 100px;
     left: 180px;
-    font-size: 20px;
+    font-size: 35px;
     color: #FFFFFF;
     text-transform: uppercase;
     }
