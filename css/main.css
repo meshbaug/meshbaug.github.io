@@ -41,7 +41,7 @@ ul {
 #sogood{
     position: absolute;
     top: 50px;
-    left: 660px; 
+    left: 645px; 
     width: 100%;
     font-family: 'Lobster', cursive;
     font-size: 100px;
@@ -51,8 +51,8 @@ ul {
 
 #stuckteeth{
     position: absolute;
-    top: 230px;
-    left: 815px; 
+    top: 210px;
+    left: 800px; 
     width: 100%;
     font-family: 'Stint Ultra Expanded', cursive;
      font-weight: normal;
