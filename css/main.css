@@ -1,7 +1,7 @@
 body{
-	font-size: 24px;
-	font-family: Helvetica;
-	background: #FFFDE2;
+  font-size: 24px;
+  font-family: Helvetica;
+  background: #FFFDE2;
   }
 
 #logo{
@@ -40,11 +40,10 @@ ul {
 
 #sogood{
     position: absolute;
-    top: 50px;
-    left: 645px; 
-    width: 100%;
-    font-family: 'Lobster', cursive;
-    font-size: 100px;
+    top: 30px;
+    left: 635px; 
+    font-family: 'Satisfy', cursive;
+    font-size: 120px;
     color: #FFFFFF;
     font-weight: normal;
     }
@@ -52,8 +51,7 @@ ul {
 #stuckteeth{
     position: absolute;
     top: 210px;
-    left: 800px; 
-    width: 100%;
+    left: 815px; 
     font-family: 'Stint Ultra Expanded', cursive;
      font-weight: normal;
     font-size: 25px;
@@ -62,13 +60,15 @@ ul {
 
 
 .imagetextbutton{
-    padding-top: 4px;
-    padding-right: 8px;
     float: left;
     position: relative; 
-    width: 32.7%
- 
-    }
+    width: 33%;
+    margin-top: .5%;
+    margin-right: .5%;
+}
+#last {
+  margin-right:0;
+}
 
 .picturebutton{
     width: 100%;
@@ -76,11 +76,13 @@ ul {
 
 .words{
     position: absolute;
+    top: 50%;
+    margin-top: -.5em;
     width: 100%;
-    top: 100px;
-    left: 180px;
+    text-align: center;
     font-size: 35px;
     color: #FFFFFF;
+    line-height: 1em;
     text-transform: uppercase;
     font-family: 'Stint Ultra Expanded', cursive;
     font-weight: normal;
