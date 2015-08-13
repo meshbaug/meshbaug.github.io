@@ -1,0 +1,94 @@
+body{
+	font-family: Helvetica;
+	background-color: #000000;
+	color: white;
+	font-size: 12px;
+	}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 40px;
+	}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	letter-spacing: 5px;
+	}
+
+nav {
+	text-transform: uppercase;
+	border: 2px solid #719D9E;
+    border-width: 2px 0;
+    list-style:none;
+    margin: 0;
+    padding: 10px;
+    text-align:center;
+	}
+
+li {
+    display:inline;
+    padding: 60px;
+    font-weight: bold;
+	}
+
+.cards {
+	max-width: 520px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+#band {
+  	background: #719D9E;
+	}
+
+#triimagegroup{
+	padding-left: 30%;
+	padding-right: 30%;
+	}
+
+.roundcontainer {
+	border-radius: 100%;
+	padding: 20px;
+	float: left;
+	}
+
+.artbutton {
+    border-radius: 100%;
+    border: 5px solid white;
+    max-width: 120px;
+	}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+
+
+
+
+
+#footbox {
+float: right;
+padding: 10px 40px 0 0;
+	}
+
+#socialicons {
+	font-size: 25px;
+	}
+
+#phone {
+	font-weight: bold;
+}
+
