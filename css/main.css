@@ -2,7 +2,7 @@ body{
 	font-family: Helvetica;
 	background-color: #000000;
 	color: white;
-	font-size: 12px;
+	font-size: 14px;
 	}
 
 h1 {
@@ -15,11 +15,11 @@ h1 {
 
 h2 {
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 16px;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 40px;
-	letter-spacing: 5px;
+	letter-spacing: 7px;
 	}
 
 nav {
@@ -34,12 +34,12 @@ nav {
 
 li {
     display:inline;
-    padding: 60px;
+    padding: 80px;
     font-weight: bold;
 	}
 
 .cards {
-	max-width: 520px;
+	max-width: 500px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -47,11 +47,13 @@ li {
 
 #band {
   	background: #719D9E;
+    text-align: center;
 	}
 
 #triimagegroup{
-	padding-left: 30%;
-	padding-right: 30%;
+  display: inline-block;
+	/*padding-left: 30%;*/
+	/*padding-right: 30%;*/
 	}
 
 .roundcontainer {
@@ -62,7 +64,7 @@ li {
 
 .artbutton {
     border-radius: 100%;
-    border: 5px solid white;
+    border: 4px solid white;
     max-width: 120px;
 	}
 
