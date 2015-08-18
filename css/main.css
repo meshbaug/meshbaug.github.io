@@ -3,7 +3,7 @@ body{
 	background-color: #000000;
 	color: white;
 	font-size: 15px;
-	}
+}
 
 h1 {
 	font-family: 'Oswald', sans-serif;
@@ -11,7 +11,7 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 1em;
-	}
+}
 
 h2 {
 	text-transform: uppercase;
@@ -20,33 +20,33 @@ h2 {
 	padding-top: .75em;
 	padding-bottom: 2.85em;
 	letter-spacing: .5em;
-	}
+}
 
-nav {
+#main {
 	text-transform: uppercase;
 	border: .25em solid #719D9E;
-    border-width: .15em 0;
-    padding: .75em;
-    text-align:center;
-	}
+  border-width: .15em 0;
+  padding: .75em;
+  text-align:center;
+}
 
-li {
+#main li {
     display:inline;
     padding: 5em;
     font-weight: bold;
-	}
+}
 
 .cards {
   width: 27em;
 	display: block;
     margin: auto;
     padding-bottom: 2em;
-	}
+}
 
 #band {
   	background: #719D9E;
     text-align: center;
-	}
+}
 
 .roundcontainer {
 	border-radius: 100%;
@@ -55,19 +55,24 @@ li {
 }
 
 .artbutton {
-    border-radius: 100%;
-    border: .3em solid white;
-    width: 7.25em;
-	}
+  border-radius: 100%;
+  border: .3em solid white;
+  width: 7.25em;
+}
+
+#sub {
+  display: none;
+}   
 
 footer {
-float: right;
-padding: 1em 3em 0 0;
-	}
+  float: right;
+  padding: 1em 3em 0 0;
+}
 
 #socialicons {
 	font-size: 2em;
-	}
+  font-weight: lighter;
+}
 
 #phone {
 	font-weight: bold;
@@ -75,13 +80,13 @@ padding: 1em 3em 0 0;
 
 @media only screen and (max-width: 935px) {
   
-  li {
+  #main li {
     padding: 3em;
   }
 
   .cards {
     width: 450px;
-    padding: 2em 0 4em 0;
+    padding: 1em 0 2em 0;
   }
 
   h2 {
@@ -89,15 +94,14 @@ padding: 1em 3em 0 0;
   }
 
   .roundcontainer {
-  padding: 1.5em .7em;
-  
-}
+    padding: 1.5em .7em;
+  }
 
-.artbutton {
+  .artbutton {
     width: 9em;
   }
 
- footer {
+  footer {
     float: none;
     display: inline;
     text-align: center;
@@ -107,7 +111,7 @@ padding: 1em 3em 0 0;
 
   #social {
     font-size: 2em;
-    padding-top: 2em; 
+    padding-top: 1em; 
   }
 
   #phone {
@@ -120,22 +124,64 @@ padding: 1em 3em 0 0;
 
 }
 
-@media only screen and (max-width: 690px) {
+    @media only screen and (max-width: 690px) {
 
-li {
-    font-size: .75em;
-    padding: 3em;
-      }
-}
+    li {
+        font-size: .75em;
+        padding: 3em;
+          }
+    }
 
-@media only screen and (max-width: 480px) {
-  nav {
-    display: block;
-    text-align: center;
+@media only screen and (max-width: 495px) {
+  #main {
+    display: none;
   }
 
+  h1{
+    font-size: 2.5em;
+  }
+
+  h2{
+    font-size: .6em;
+  }
 
   .cards {
-    width: 230px;
+    width: 100%;
   }
+
+  #sub {
+    background-color: white;
+    display: block;
+    text-align: center;
+
+  }
+
+  #sub li {
+    display: inline-block;
+    padding: 1em 0;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    background: #719D9E;
+    width: 32%
+
+
+  }
+
+  #band {
+    display: none;
+  }
+
+  .roundcontainer {
+    display: none;
+  }
+
+  .artbutton {
+    display: none;
+  }
+
+footer {
+  padding: 0;
+}
+
 }
