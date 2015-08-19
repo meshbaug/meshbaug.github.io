@@ -58,6 +58,9 @@ a:hover {
     margin: auto;
     padding-bottom: 2em;
 }
+#work{
+  font-size: 0
+}
 
 #band {
   	background: #719D9E;
@@ -180,15 +183,40 @@ footer {
     font-size: .6em;
   }
 
+
+/*HERO IMAGE MEDIA_____________________*/
+  
   .cards {
     width: 100%;
   }
+  
+  #workbutton{
+    float: left;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    border-radius: 100%;
+    background-color:  white;
+    width: 8em;
+    height: 8em;
+    
+  }
+
+  #work{
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 8em;
+  }
+
 
   #sub {
     background-color: white;
     display: block;
     text-align: center;
-
   }
 
   #sub li {
@@ -218,8 +246,9 @@ footer {
   footer {
     padding: 0;
   }
-/*MEDIA PHONE WORK PAGE*/
-#workbox {
+/*MEDIA PHONE WORK PAGE  */ 
+
+  #workbox {
     width: 100%;
     padding: 0;
 }
