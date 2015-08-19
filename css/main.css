@@ -33,7 +33,23 @@ h2 {
 #main li {
     display:inline;
     padding: 5em;
-    font-weight: bold;
+    font-weight: bold;  
+}
+
+a{
+  text-decoration: none;
+}
+
+a {
+  color: white;
+}
+
+a:visited{
+  color: inherit;
+}
+
+a:hover { 
+  color: #719D9E;
 }
 
 .cards {
