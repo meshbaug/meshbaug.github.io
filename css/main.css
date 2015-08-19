@@ -37,7 +37,7 @@ h2 {
 }
 
 .cards {
-  width: 27em;
+  width: 30em;
 	display: block;
     margin: auto;
     padding-bottom: 2em;
@@ -77,6 +77,24 @@ footer {
 #phone {
 	font-weight: bold;
 }
+
+
+/*WORK PAGE CSS-----------------------------*/
+  #workbox {
+    width: 66%;
+    padding: .2% 17%;
+}
+
+  .trigroup {
+    float: left;
+    width: 100%;
+  }
+  .art{
+    width:31%;
+    padding: .5%
+  }
+
+/*MEDIA QUERIES-----------------------------*/
 
 @media only screen and (max-width: 935px) {
   
@@ -124,13 +142,14 @@ footer {
 
 }
 
-    @media only screen and (max-width: 690px) {
+
+@media only screen and (max-width: 690px) {
 
     li {
         font-size: .75em;
         padding: 3em;
           }
-    }
+}
 
 @media only screen and (max-width: 495px) {
   #main {
@@ -180,8 +199,20 @@ footer {
     display: none;
   }
 
-footer {
-  padding: 0;
+  footer {
+    padding: 0;
+  }
+/*MEDIA PHONE WORK PAGE*/
+#workbox {
+    width: 100%;
+    padding: 0;
 }
 
+  .trigroup {
+    float: none;
+  }
+  .art{
+    width: 90%;
+    padding: 5%;
+  }
 }
