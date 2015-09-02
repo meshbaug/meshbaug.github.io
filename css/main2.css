@@ -1,0 +1,52 @@
+body {
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 4em;
+	padding-left: .2em;
+}
+
+header {
+	/*position: absolute;*/
+	width: 100%;
+	background-color: purple;
+}
+
+#mainnav{
+	margin-top: -20px; 
+}
+
+a {
+	float: right;
+	padding: 0 2em;
+}
+
+
+.column{
+	/*margin-top: 50px;*/
+	width: 100%;
+	position: absolute;
+}
+
+.group{
+	/*padding: 1%;*/
+	/*text-align: left;*/
+	float: left;
+
+	
+}
+.box{
+	width: 30.666%;
+	/*float: left;*/
+
+}	
+
+/*#boxtwo{
+margin: 2% 0;
+}*/
+/*img {
+	width: 15em;
+	
+}*/
