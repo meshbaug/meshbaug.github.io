@@ -1,0 +1,64 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: gray;
+	/*background-color: #F0F0E3;*/
+}
+
+
+/*HEADER AND NAV BAR..........*/
+header {
+	width: 100%;
+	margin: 5% 0 0 5.5%;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+#subhead{
+	color: #4C8BF5;
+}
+
+#mainnav {
+	margin-top: -20px; 
+	margin-right: 9.5%;
+}
+
+.links {
+	float: right;
+	padding-right: 2.1%;
+	
+}
+
+
+/*SQUARE GRIDS OF IMAGES..........*/
+
+.column {
+	width: 90%;
+	margin: 3% 5%
+}
+
+.group {
+	width: 31.333%;
+	float: left;
+	margin: 1%
+}
+
+.box {
+	width: 100%;
+}
+
+p{
+	padding-top: .5em;
+	padding-bottom: 1em;
+}
+
