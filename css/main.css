@@ -3,7 +3,6 @@ body {
 	font-size: 20px;
 	font-weight: 300;
 	color: gray;
-	/*background-color: #F0F0E3;*/
 }
 
 
@@ -25,9 +24,8 @@ a {
 }
 
 #subhead{
-	display: inline;
-	color: #4C8BF5;
 	float: left;
+	color: #4C8BF5;
 }
 
 #mainnav {
@@ -37,8 +35,7 @@ a {
 
 .links {
 	float: right;
-	padding-right: 2.1%;
-	
+	padding-right: 2.1%;	
 }
 
 
