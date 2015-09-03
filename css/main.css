@@ -25,7 +25,9 @@ a {
 }
 
 #subhead{
+	display: inline;
 	color: #4C8BF5;
+	float: left;
 }
 
 #mainnav {
