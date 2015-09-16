@@ -22,6 +22,18 @@ a {
   text-decoration: none;
   color: gray;
 }
+a:visited{
+  color: inherit;
+}
+
+a:hover { 
+  color: black;
+}
+
+h1 span{
+	color: #4C8BF5;
+	text-transform: none;
+}
 
 #subhead{
 	float: left;
@@ -54,6 +66,10 @@ a {
 
 .box {
 	width: 100%;
+}
+
+.portbox {
+	width: 66%;
 }
 
 p{
